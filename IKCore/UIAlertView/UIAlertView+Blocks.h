@@ -1,3 +1,10 @@
+//
+//  UIAlertView+Blocks
+//
+//  Created by Ian Keen on 2/06/2015.
+//  Copyright (c) 2015 IanKeen. All rights reserved.
+//
+
 #import <UIKit/UIKit.h>
 
 typedef void (^uiAlertViewActionBlock)(UIAlertView *alertView, NSInteger selectedButtonIndex, NSString *selectedButtonText);

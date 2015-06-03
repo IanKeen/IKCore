@@ -1,5 +1,12 @@
-#ifndef iOSCommon_Defines_h
-#define iOSCommon_Defines_h
+//
+//  Defines
+//
+//  Created by Ian Keen on 2/06/2015.
+//  Copyright (c) 2015 IanKeen. All rights reserved.
+//
+
+#ifndef IKCore_Defines_h
+#define IKCore_Defines_h
 
 #define IKCORE
 

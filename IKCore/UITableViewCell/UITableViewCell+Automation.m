@@ -1,3 +1,10 @@
+//
+//  UITableViewCell+Automation
+//
+//  Created by Ian Keen on 2/06/2015.
+//  Copyright (c) 2015 IanKeen. All rights reserved.
+//
+
 #import "UITableViewCell+Automation.h"
 #import <objc/runtime.h>
 
