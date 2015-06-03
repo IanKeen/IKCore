@@ -1,0 +1,13 @@
+#import "NSArray+Filter.h"
+
+@implementation NSArray (Filter)
+-(NSArray *)filter:(filterFunction)function {
+    NSMutableArray *result = [NSMutableArray new];
+    [self enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        if (function(obj)) {
+            [result addObject:obj];
+        }
+    }];
+    return result;
+}
+@end
