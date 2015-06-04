@@ -35,13 +35,6 @@
 		3247C59C1B1E8F0C0097F497 /* NSObject+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C5551B1E8F0C0097F497 /* NSObject+Map.m */; };
 		3247C59D1B1E8F0C0097F497 /* NSObject+Null.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C5571B1E8F0C0097F497 /* NSObject+Null.m */; };
 		3247C59E1B1E8F0C0097F497 /* NSSet+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C55A1B1E8F0C0097F497 /* NSSet+Map.m */; };
-		3247C59F1B1E8F0C0097F497 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C55D1B1E8F0C0097F497 /* UIAlertView+Blocks.m */; };
-		3247C5A01B1E8F0C0097F497 /* UIBarButtonItem+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C5601B1E8F0C0097F497 /* UIBarButtonItem+Blocks.m */; };
-		3247C5A11B1E8F0C0097F497 /* UICollectionViewCell+Automation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C5631B1E8F0C0097F497 /* UICollectionViewCell+Automation.m */; };
-		3247C5A21B1E8F0C0097F497 /* UIGestureRecognizer+GestureBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C5661B1E8F0C0097F497 /* UIGestureRecognizer+GestureBlocks.m */; };
-		3247C5A31B1E8F0C0097F497 /* UITableViewCell+Automation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C5691B1E8F0C0097F497 /* UITableViewCell+Automation.m */; };
-		3247C5A41B1E8F0C0097F497 /* UIView+ExclusiveTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C56C1B1E8F0C0097F497 /* UIView+ExclusiveTouch.m */; };
-		3247C5A51B1E8F0C0097F497 /* UIViewController+Init.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C56F1B1E8F0C0097F497 /* UIViewController+Init.m */; };
 		3247C5A61B1E8F0C0097F497 /* KCMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C5731B1E8F0C0097F497 /* KCMutableDictionary.m */; };
 		3247C5A71B1E8F0C0097F497 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C5761B1E8F0C0097F497 /* Reachability.m */; };
 		3247C5A81B1E8F0C0097F497 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C5791B1E8F0C0097F497 /* AppDelegate.m */; };
@@ -149,20 +142,6 @@
 		3247C5571B1E8F0C0097F497 /* NSObject+Null.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Null.m"; sourceTree = "<group>"; };
 		3247C5591B1E8F0C0097F497 /* NSSet+Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+Map.h"; sourceTree = "<group>"; };
 		3247C55A1B1E8F0C0097F497 /* NSSet+Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Map.m"; sourceTree = "<group>"; };
-		3247C55C1B1E8F0C0097F497 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
-		3247C55D1B1E8F0C0097F497 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
-		3247C55F1B1E8F0C0097F497 /* UIBarButtonItem+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Blocks.h"; sourceTree = "<group>"; };
-		3247C5601B1E8F0C0097F497 /* UIBarButtonItem+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Blocks.m"; sourceTree = "<group>"; };
-		3247C5621B1E8F0C0097F497 /* UICollectionViewCell+Automation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+Automation.h"; sourceTree = "<group>"; };
-		3247C5631B1E8F0C0097F497 /* UICollectionViewCell+Automation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+Automation.m"; sourceTree = "<group>"; };
-		3247C5651B1E8F0C0097F497 /* UIGestureRecognizer+GestureBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+GestureBlocks.h"; sourceTree = "<group>"; };
-		3247C5661B1E8F0C0097F497 /* UIGestureRecognizer+GestureBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+GestureBlocks.m"; sourceTree = "<group>"; };
-		3247C5681B1E8F0C0097F497 /* UITableViewCell+Automation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Automation.h"; sourceTree = "<group>"; };
-		3247C5691B1E8F0C0097F497 /* UITableViewCell+Automation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Automation.m"; sourceTree = "<group>"; };
-		3247C56B1B1E8F0C0097F497 /* UIView+ExclusiveTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ExclusiveTouch.h"; sourceTree = "<group>"; };
-		3247C56C1B1E8F0C0097F497 /* UIView+ExclusiveTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ExclusiveTouch.m"; sourceTree = "<group>"; };
-		3247C56E1B1E8F0C0097F497 /* UIViewController+Init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Init.h"; sourceTree = "<group>"; };
-		3247C56F1B1E8F0C0097F497 /* UIViewController+Init.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Init.m"; sourceTree = "<group>"; };
 		3247C5721B1E8F0C0097F497 /* KCMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCMutableDictionary.h; sourceTree = "<group>"; };
 		3247C5731B1E8F0C0097F497 /* KCMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCMutableDictionary.m; sourceTree = "<group>"; };
 		3247C5751B1E8F0C0097F497 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
@@ -279,13 +258,6 @@
 				3247C5461B1E8F0C0097F497 /* NSNumber */,
 				3247C5511B1E8F0C0097F497 /* NSObject */,
 				3247C5581B1E8F0C0097F497 /* NSSet */,
-				3247C55B1B1E8F0C0097F497 /* UIAlertView */,
-				3247C55E1B1E8F0C0097F497 /* UIBarButtonItem */,
-				3247C5611B1E8F0C0097F497 /* UICollectionView */,
-				3247C5641B1E8F0C0097F497 /* UIGestureRecognizer */,
-				3247C5671B1E8F0C0097F497 /* UITableViewCell */,
-				3247C56A1B1E8F0C0097F497 /* UIView */,
-				3247C56D1B1E8F0C0097F497 /* UIViewController */,
 				3247C5701B1E8F0C0097F497 /* Vendor */,
 				3247C5191B1E8F0C0097F497 /* Decorators.h */,
 				3247C51A1B1E8F0C0097F497 /* Defines.h */,
@@ -424,69 +396,6 @@
 				3247C55A1B1E8F0C0097F497 /* NSSet+Map.m */,
 			);
 			path = NSSet;
-			sourceTree = "<group>";
-		};
-		3247C55B1B1E8F0C0097F497 /* UIAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				3247C55C1B1E8F0C0097F497 /* UIAlertView+Blocks.h */,
-				3247C55D1B1E8F0C0097F497 /* UIAlertView+Blocks.m */,
-			);
-			path = UIAlertView;
-			sourceTree = "<group>";
-		};
-		3247C55E1B1E8F0C0097F497 /* UIBarButtonItem */ = {
-			isa = PBXGroup;
-			children = (
-				3247C55F1B1E8F0C0097F497 /* UIBarButtonItem+Blocks.h */,
-				3247C5601B1E8F0C0097F497 /* UIBarButtonItem+Blocks.m */,
-			);
-			path = UIBarButtonItem;
-			sourceTree = "<group>";
-		};
-		3247C5611B1E8F0C0097F497 /* UICollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				3247C5621B1E8F0C0097F497 /* UICollectionViewCell+Automation.h */,
-				3247C5631B1E8F0C0097F497 /* UICollectionViewCell+Automation.m */,
-			);
-			path = UICollectionView;
-			sourceTree = "<group>";
-		};
-		3247C5641B1E8F0C0097F497 /* UIGestureRecognizer */ = {
-			isa = PBXGroup;
-			children = (
-				3247C5651B1E8F0C0097F497 /* UIGestureRecognizer+GestureBlocks.h */,
-				3247C5661B1E8F0C0097F497 /* UIGestureRecognizer+GestureBlocks.m */,
-			);
-			path = UIGestureRecognizer;
-			sourceTree = "<group>";
-		};
-		3247C5671B1E8F0C0097F497 /* UITableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				3247C5681B1E8F0C0097F497 /* UITableViewCell+Automation.h */,
-				3247C5691B1E8F0C0097F497 /* UITableViewCell+Automation.m */,
-			);
-			path = UITableViewCell;
-			sourceTree = "<group>";
-		};
-		3247C56A1B1E8F0C0097F497 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				3247C56B1B1E8F0C0097F497 /* UIView+ExclusiveTouch.h */,
-				3247C56C1B1E8F0C0097F497 /* UIView+ExclusiveTouch.m */,
-			);
-			path = UIView;
-			sourceTree = "<group>";
-		};
-		3247C56D1B1E8F0C0097F497 /* UIViewController */ = {
-			isa = PBXGroup;
-			children = (
-				3247C56E1B1E8F0C0097F497 /* UIViewController+Init.h */,
-				3247C56F1B1E8F0C0097F497 /* UIViewController+Init.m */,
-			);
-			path = UIViewController;
 			sourceTree = "<group>";
 		};
 		3247C5701B1E8F0C0097F497 /* Vendor */ = {
@@ -722,15 +631,11 @@
 			files = (
 				3247C5A81B1E8F0C0097F497 /* AppDelegate.m in Sources */,
 				3247C5951B1E8F0C0097F497 /* NSMutableSet+ThreadSafe.m in Sources */,
-				3247C5A51B1E8F0C0097F497 /* UIViewController+Init.m in Sources */,
-				3247C5A41B1E8F0C0097F497 /* UIView+ExclusiveTouch.m in Sources */,
 				3247C5911B1E8F0C0097F497 /* NSDate+TimeBetween.m in Sources */,
 				3247C59A1B1E8F0C0097F497 /* NSNumber+Times.m in Sources */,
 				3247C59B1B1E8F0C0097F497 /* NSObject+Introspection.m in Sources */,
 				3247C5A71B1E8F0C0097F497 /* Reachability.m in Sources */,
-				3247C5A11B1E8F0C0097F497 /* UICollectionViewCell+Automation.m in Sources */,
 				3247C58D1B1E8F0C0097F497 /* NSArray+Variadic.m in Sources */,
-				3247C5A31B1E8F0C0097F497 /* UITableViewCell+Automation.m in Sources */,
 				3247C5861B1E8F0C0097F497 /* NSArray+All.m in Sources */,
 				3247C5931B1E8F0C0097F497 /* NSError+Init.m in Sources */,
 				3247C5AD1B1E8F0C0097F497 /* main.m in Sources */,
@@ -742,10 +647,8 @@
 				3247C5871B1E8F0C0097F497 /* NSArray+Filter.m in Sources */,
 				3247C58C1B1E8F0C0097F497 /* NSArray+Unique.m in Sources */,
 				3247C5901B1E8F0C0097F497 /* NSDate+StringFormatting.m in Sources */,
-				3247C59F1B1E8F0C0097F497 /* UIAlertView+Blocks.m in Sources */,
 				3247C5921B1E8F0C0097F497 /* NSDictionary+Filter.m in Sources */,
 				3247C5891B1E8F0C0097F497 /* NSArray+Map.m in Sources */,
-				3247C5A21B1E8F0C0097F497 /* UIGestureRecognizer+GestureBlocks.m in Sources */,
 				3247C5851B1E8F0C0097F497 /* MultiSort.m in Sources */,
 				3247C58B1B1E8F0C0097F497 /* NSArray+Take.m in Sources */,
 				3247C5961B1E8F0C0097F497 /* NSNumber+DurationString.m in Sources */,
@@ -756,7 +659,6 @@
 				3247C5A61B1E8F0C0097F497 /* KCMutableDictionary.m in Sources */,
 				3247C5AE1B1E8F0C0097F497 /* ViewController.m in Sources */,
 				3247C5941B1E8F0C0097F497 /* NSJSONSerialization+String.m in Sources */,
-				3247C5A01B1E8F0C0097F497 /* UIBarButtonItem+Blocks.m in Sources */,
 				3247C5841B1E8F0C0097F497 /* Device.m in Sources */,
 				3247C59D1B1E8F0C0097F497 /* NSObject+Null.m in Sources */,
 				3247C5991B1E8F0C0097F497 /* NSNumber+ReadableDurations.m in Sources */,
