@@ -3,7 +3,7 @@
 #import <netinet/in.h>
 
 #ifdef IKEVENTS
-#import <MSEvent/MSEvent.h>
+#import <IKEvents/IKEvent.h>
 #endif
 
 @import SystemConfiguration;
@@ -30,8 +30,8 @@ NSString * ReachabilityChangedNotification = @"ReachabilityChangedNotification";
     if (!(self = [super init])) { return nil; }
     
     #ifdef IKEVENTS
-    _didBecomeReachable = [MSEvent new];
-    _didBecomeUnreachable = [MSEvent new];
+    _didBecomeReachable = [IKEvent new];
+    _didBecomeUnreachable = [IKEvent new];
     #endif
     
     self.reachabilityRef = reachabilityRef;

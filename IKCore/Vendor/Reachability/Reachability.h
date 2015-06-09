@@ -38,7 +38,7 @@
  */
 
 #ifdef IKEVENTS
-@class Event;
+@class IKEvent;
 #endif
 
 extern NSString * ReachabilityChangedNotification;
@@ -74,7 +74,7 @@ typedef NS_ENUM(NSUInteger, NetworkStatus) {
 @property (nonatomic, readonly) NSString *currentReachabilityString;
 
 #ifdef IKEVENTS
-@property (nonatomic, strong, readonly) MSEvent *didBecomeReachable;
-@property (nonatomic, strong, readonly) MSEvent *didBecomeUnreachable;
+@property (nonatomic, strong, readonly) IKEvent *didBecomeReachable;
+@property (nonatomic, strong, readonly) IKEvent *didBecomeUnreachable;
 #endif
 @end
