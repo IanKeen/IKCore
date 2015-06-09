@@ -2,7 +2,7 @@
 #import <arpa/inet.h>
 #import <netinet/in.h>
 
-#ifdef MS_EVENTS
+#ifdef IKEVENTS
 #import <MSEvent/MSEvent.h>
 #endif
 
@@ -29,7 +29,7 @@ NSString * ReachabilityChangedNotification = @"ReachabilityChangedNotification";
 -(instancetype)initWithReachabilityRef:(SCNetworkReachabilityRef)reachabilityRef {
     if (!(self = [super init])) { return nil; }
     
-    #ifdef MS_EVENTS
+    #ifdef IKEVENTS
     _didBecomeReachable = [MSEvent new];
     _didBecomeUnreachable = [MSEvent new];
     #endif
@@ -167,13 +167,13 @@ NSString * ReachabilityChangedNotification = @"ReachabilityChangedNotification";
 
 -(void)reachabilityChanged:(SCNetworkReachabilityFlags)flags {
     if ([self isReachableWithFlags:flags]) {
-        #ifdef MS_EVENTS
+        #ifdef IKEVENTS
         notify(self.didBecomeReachable);
         #endif
         if (self.whenReachable) { self.whenReachable(self); }
 
     } else {
-        #ifdef MS_EVENTS
+        #ifdef IKEVENTS
         notify(self.didBecomeUnreachable);
         #endif
         if (self.whenUnreachable) { self.whenUnreachable(self); }
