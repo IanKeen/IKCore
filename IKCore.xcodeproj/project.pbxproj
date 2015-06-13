@@ -68,6 +68,8 @@
 		3247C5E71B1E8F150097F497 /* NSObject+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C5CD1B1E8F150097F497 /* NSObject+Map.m */; };
 		3247C5E81B1E8F150097F497 /* NSObject+Null.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C5CE1B1E8F150097F497 /* NSObject+Null.m */; };
 		3247C5E91B1E8F150097F497 /* NSSet+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C5D01B1E8F150097F497 /* NSSet+Map.m */; };
+		327970701B2BAA2C000FAAAA /* NSArray+Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 3279706F1B2BAA2C000FAAAA /* NSArray+Group.m */; };
+		327970721B2BABB0000FAAAA /* NSArray+Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 327970711B2BABB0000FAAAA /* NSArray+Group.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -180,6 +182,9 @@
 		3247C5CD1B1E8F150097F497 /* NSObject+Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Map.m"; sourceTree = "<group>"; };
 		3247C5CE1B1E8F150097F497 /* NSObject+Null.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Null.m"; sourceTree = "<group>"; };
 		3247C5D01B1E8F150097F497 /* NSSet+Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Map.m"; sourceTree = "<group>"; };
+		3279706E1B2BAA2C000FAAAA /* NSArray+Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Group.h"; sourceTree = "<group>"; };
+		3279706F1B2BAA2C000FAAAA /* NSArray+Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Group.m"; sourceTree = "<group>"; };
+		327970711B2BABB0000FAAAA /* NSArray+Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Group.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +309,8 @@
 				3247C52E1B1E8F0C0097F497 /* NSArray+Unique.m */,
 				3247C52F1B1E8F0C0097F497 /* NSArray+Variadic.h */,
 				3247C5301B1E8F0C0097F497 /* NSArray+Variadic.m */,
+				3279706E1B2BAA2C000FAAAA /* NSArray+Group.h */,
+				3279706F1B2BAA2C000FAAAA /* NSArray+Group.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -460,6 +467,7 @@
 				3247C5B71B1E8F150097F497 /* NSArray+Take.m */,
 				3247C5B81B1E8F150097F497 /* NSArray+Unique.m */,
 				3247C5B91B1E8F150097F497 /* NSArray+Variadic.m */,
+				327970711B2BABB0000FAAAA /* NSArray+Group.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -639,6 +647,7 @@
 				3247C5861B1E8F0C0097F497 /* NSArray+All.m in Sources */,
 				3247C5931B1E8F0C0097F497 /* NSError+Init.m in Sources */,
 				3247C5AD1B1E8F0C0097F497 /* main.m in Sources */,
+				327970701B2BAA2C000FAAAA /* NSArray+Group.m in Sources */,
 				3247C5981B1E8F0C0097F497 /* NSNumber+Padding.m in Sources */,
 				3247C59E1B1E8F0C0097F497 /* NSSet+Map.m in Sources */,
 				3247C58F1B1E8F0C0097F497 /* NSDate+Shortcuts.m in Sources */,
@@ -687,6 +696,7 @@
 				3247C5DC1B1E8F150097F497 /* NSDate+StringFormatting.m in Sources */,
 				3247C5E61B1E8F150097F497 /* NSObject+Introspection.m in Sources */,
 				3247C5E31B1E8F150097F497 /* NSNumber+Padding.m in Sources */,
+				327970721B2BABB0000FAAAA /* NSArray+Group.m in Sources */,
 				3247C5DA1B1E8F150097F497 /* NSDate+Building.m in Sources */,
 				3247C5DD1B1E8F150097F497 /* NSDate+TimeBetween.m in Sources */,
 				3247C5E01B1E8F150097F497 /* NSJSONSerialization+String.m in Sources */,
