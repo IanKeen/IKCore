@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321D4FCE1B41C70900A386BD /* NSArray+First.m in Sources */ = {isa = PBXBuildFile; fileRef = 321D4FCD1B41C70900A386BD /* NSArray+First.m */; };
+		321D4FD01B41C8A100A386BD /* NSArray+First.m in Sources */ = {isa = PBXBuildFile; fileRef = 321D4FCF1B41C8A100A386BD /* NSArray+First.m */; };
 		3247C5831B1E8F0C0097F497 /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C5181B1E8F0C0097F497 /* DataStore.m */; };
 		3247C5841B1E8F0C0097F497 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C51D1B1E8F0C0097F497 /* Device.m */; };
 		3247C5851B1E8F0C0097F497 /* MultiSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247C51F1B1E8F0C0097F497 /* MultiSort.m */; };
@@ -83,6 +85,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		321D4FCC1B41C70900A386BD /* NSArray+First.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+First.h"; sourceTree = "<group>"; };
+		321D4FCD1B41C70900A386BD /* NSArray+First.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+First.m"; sourceTree = "<group>"; };
+		321D4FCF1B41C8A100A386BD /* NSArray+First.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+First.m"; sourceTree = "<group>"; };
 		3247C4EC1B1E8E0D0097F497 /* IKCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3247C5051B1E8E0E0097F497 /* IKCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IKCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3247C50A1B1E8E0E0097F497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -311,6 +316,8 @@
 				3247C5301B1E8F0C0097F497 /* NSArray+Variadic.m */,
 				3279706E1B2BAA2C000FAAAA /* NSArray+Group.h */,
 				3279706F1B2BAA2C000FAAAA /* NSArray+Group.m */,
+				321D4FCC1B41C70900A386BD /* NSArray+First.h */,
+				321D4FCD1B41C70900A386BD /* NSArray+First.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -468,6 +475,7 @@
 				3247C5B81B1E8F150097F497 /* NSArray+Unique.m */,
 				3247C5B91B1E8F150097F497 /* NSArray+Variadic.m */,
 				327970711B2BABB0000FAAAA /* NSArray+Group.m */,
+				321D4FCF1B41C8A100A386BD /* NSArray+First.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -641,6 +649,7 @@
 				3247C5951B1E8F0C0097F497 /* NSMutableSet+ThreadSafe.m in Sources */,
 				3247C5911B1E8F0C0097F497 /* NSDate+TimeBetween.m in Sources */,
 				3247C59A1B1E8F0C0097F497 /* NSNumber+Times.m in Sources */,
+				321D4FCE1B41C70900A386BD /* NSArray+First.m in Sources */,
 				3247C59B1B1E8F0C0097F497 /* NSObject+Introspection.m in Sources */,
 				3247C5A71B1E8F0C0097F497 /* Reachability.m in Sources */,
 				3247C58D1B1E8F0C0097F497 /* NSArray+Variadic.m in Sources */,
@@ -689,6 +698,7 @@
 				3247C5D31B1E8F150097F497 /* NSArray+Filter.m in Sources */,
 				3247C5DE1B1E8F150097F497 /* NSDictionary+Filter.m in Sources */,
 				3247C5D21B1E8F150097F497 /* NSArray+All.m in Sources */,
+				321D4FD01B41C8A100A386BD /* NSArray+First.m in Sources */,
 				3247C5D51B1E8F150097F497 /* NSArray+Map.m in Sources */,
 				3247C5D61B1E8F150097F497 /* NSArray+Reduce.m in Sources */,
 				3247C5E21B1E8F150097F497 /* NSNumber+Logic.m in Sources */,
