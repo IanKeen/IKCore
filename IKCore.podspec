@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'IKCore'
-  spec.version      = '1.2'
+  spec.version      = '1.3'
   spec.license      = { :type => 'MIT' }
   spec.homepage     = 'https://github.com/iankeen82/'
   spec.authors      = { 'Ian Keen' => 'iankeen82@gmail.com' }
