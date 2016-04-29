@@ -22,4 +22,5 @@
  *  @return A relative string representation of the duration between the dates
  */
 -(NSString *)timeBetween:(NSDate *)reference;
+-(NSString *)timeBetween:(NSDate *)reference long:(BOOL)longStrings;
 @end

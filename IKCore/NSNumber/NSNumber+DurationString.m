@@ -10,12 +10,15 @@
 
 @implementation NSNumber (DurationString)
 -(NSString *)duration {
+    return [self duration:NO];
+}
+-(NSString *)duration:(BOOL)longDurations {
     NSTimeInterval absoluteValue = fabs([self doubleValue]);
     NSDate *now = [NSDate date];
     /*
-     Interesting note: using '-absoluteValue' rather than 'absoluteValue' provides more accurate output 
+     Interesting note: using '-absoluteValue' rather than 'absoluteValue' provides more accurate output
      */
     NSDate *temporaryDate = [now dateByAddingTimeInterval:-absoluteValue];
-    return [now timeBetween:temporaryDate];
+    return [now timeBetween:temporaryDate long:longDurations];
 }
 @end

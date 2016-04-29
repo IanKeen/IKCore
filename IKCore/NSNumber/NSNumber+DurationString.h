@@ -20,4 +20,5 @@
  *  @return NSString
  */
 -(NSString *)duration;
+-(NSString *)duration:(BOOL)longDurations;
 @end
